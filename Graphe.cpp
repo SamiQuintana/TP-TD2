@@ -1,6 +1,4 @@
-//
-// Created by Quentin on 16/03/2020.
-//
+
 
 #include "Graphe.h"
 #include <fstream>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe
+# Install script for directory: C:/Users/sam-d/CLionProjects/TP-TD2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sam-d/CLionProjects/TP-TD2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

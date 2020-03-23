@@ -1,6 +1,3 @@
-//
-// Created by Quentin on 16/03/2020.
-//
 
 #ifndef TP2_GRAPHE_SOMMET_H
 #define TP2_GRAPHE_SOMMET_H
