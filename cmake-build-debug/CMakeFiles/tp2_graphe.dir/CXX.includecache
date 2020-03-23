@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Graphe.cpp
+Graphe.h
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Graphe.h
+fstream
+-
+queue
+-
+
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Graphe.h
+iostream
+-
+Sommet.h
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Sommet.h
+
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Sommet.cpp
+Sommet.h
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Sommet.h
+
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Sommet.h
+iostream
+-
+vector
+-
+
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/main.cpp
+iostream
+-
+Graphe.h
+C:/Users/sam-d/Desktop/Cours/Info/tp2 graphe/Graphe.h
+
