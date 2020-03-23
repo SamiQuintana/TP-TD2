@@ -28,5 +28,6 @@ int main() {
     arborescence = g.BFS(s0);
     std::cout << "Plus courts chemin depuis le sommet " << s0 << "(BFS) : " << std::endl;
     afficherParcours(s0, arborescence);
+    //wsh
     return 0;
 }

@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.cpp
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Graphe.cpp
 Graphe.h
-C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.h
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Graphe.h
 fstream
 -
 queue
 -
 
-C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.h
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Graphe.h
 iostream
 -
 Sommet.h
-C:/Users/sam-d/CLionProjects/TP-TD2/Sommet.h
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Sommet.h
 
-C:/Users/sam-d/CLionProjects/TP-TD2/Sommet.cpp
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Sommet.cpp
 Sommet.h
-C:/Users/sam-d/CLionProjects/TP-TD2/Sommet.h
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Sommet.h
 
-C:/Users/sam-d/CLionProjects/TP-TD2/Sommet.h
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Sommet.h
 iostream
 -
 vector
 -
 
-C:/Users/sam-d/CLionProjects/TP-TD2/main.cpp
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/main.cpp
 iostream
 -
 Graphe.h
-C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.h
+C:/Users/samib/Documents/Ecole/ECE/2019-2020/Informatique/Semestre 2/TP2/Graphe.h
 
