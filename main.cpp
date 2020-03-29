@@ -22,12 +22,22 @@ int main() {
     size_t s0 = 0;
     Graphe g{"../Graphe_NO"};
     std::vector<int> arborescence;
+    std::vector<int> arborescence_2;
     g.afficher();
-    std::cout << "BFS: Veuillez saisir le numero du sommet initial pour la recherche du plus court chemin : ";
+
+
+    std::cout << "DFS: Veuillez saisir le numero du sommet initial pour le parcours en profondeur : ";
     std::cin >> s0;
-    arborescence = g.BFS(s0);
-    std::cout << "Plus courts chemin depuis le sommet " << s0 << "(BFS) : " << std::endl;
+    arborescence = g.DFS(s0);
+    std::cout << "Parcours en profondeur depuis " << s0 << "(DFS) : " << std::endl;
     afficherParcours(s0, arborescence);
-    //wsh la zone
+
+
+    std::cout << "BFS: Veuillez saisir le numero du sommet initial pour le parcours en largeur : ";
+    std::cin >> s0;
+    arborescence_2 = g.BFS(s0);
+    std::cout << "Parcours en largeur depuis " << s0 << "(BFS) : " << std::endl;
+    afficherParcours(s0, arborescence_2);
+
     return 0;
 }

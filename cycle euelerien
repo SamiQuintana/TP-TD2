@@ -1,4 +1,4 @@
-première ebauche de reflexion sur le cycle
+
 
 on sait que l'on a besoin de connaitre le nombre de sommets dans le graphe
 ensuite si le graphe possede 0 ou 2 sommets de degres impair alors le graphe est eulerien

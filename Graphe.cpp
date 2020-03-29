@@ -3,6 +3,7 @@
 #include "Graphe.h"
 #include <fstream>
 #include <queue>
+#include <stack>
 
 Graphe::Graphe(const std::string& cheminFichierGraphe) {
     std::ifstream ifs{cheminFichierGraphe};
@@ -91,23 +92,23 @@ std::vector<int> Graphe::BFS(int numero_S0) const {
 std::vector<int> Graphe::DFS(int numero_S0) const {
     ///Tous les sommets sont blancs nn decouverts
     std::vector<int > couleurs((int) m_sommets.size(), 0);
-    ///Creer une file vide
-    std::queue<const Sommet*> file;
+    ///Creer une pile vide
+    std::stack<const Sommet*> pile;
     std::vector<int > predecesseurs((int) m_sommets.size(), -1);
     ///Enfiler s0; s0 deviens gris
-    file.push(m_sommets[numero_S0]);
+    pile.push(m_sommets[numero_S0]);
     couleurs[numero_S0] = 1; // gris
     const Sommet* s; /// On ne modifie pas l'adresse de s.
-    ///Tant que la file n'est pas vide
-    while(!file.empty()){
-        ///Defiler le prochain sommert s de la file
-        s = file.front();
-        file.pop();
-        ///Pour chaque successeur s' blanc non decourt de s:
+    ///Tant que la pile n'est pas vide
+    while(!pile.empty()){
+        ///Defiler le prochain sommet s de la pile
+        s = pile.top();
+        pile.pop();
+        ///Pour chaque successeur s' blanc non decouvert de s:
         for(auto succ: s->getSuccesseur()){
             if(couleurs[succ->getNumero()] == 0){
                 ///Enfiler s'; s' deviens gris
-                file.push(succ);
+                pile.push(succ);
                 couleurs[succ->getNumero()] = 1; // gris
                 ///Noter s est le predecesseur de s'
                 predecesseurs[succ->getNumero()] = s->getNumero();
