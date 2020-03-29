@@ -141,3 +141,25 @@ void Graphe::CompConnexe(){
                 std::cout<< "} ";
             }
 }
+/// ici présent le code DFS en récursif fonctionnel mais qui a des problemes pour s'afficher
+
+/*
+void DFS_recursif(int numero_S0) const;
+void Graphe::DFS_recursif(int numero_S0) const {
+    /// Tous les sommets sont blancs non découverts
+    std::vector<int> couleurs((int) m_sommets.size(), 0);
+    /// On grise le sommet actuel
+    couleurs[numero_S0] = 1;
+    /// On crée le sommet du numéro correspondant
+    Sommet s(numero_S0);
+    /// Pour tous ses successeurs, on teste s'ils sont blanc, si oui alors on re effectue la procédure avec le sommet en question
+    for(auto succ: s.getSuccesseur())
+    {
+        if(couleurs[succ->getNumero()] == 0)
+        {
+            DFS_recursif(succ->getNumero());
+        }
+    }
+
+}
+ */
