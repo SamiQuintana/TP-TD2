@@ -119,3 +119,25 @@ std::vector<int> Graphe::DFS(int numero_S0) const {
     }
     return predecesseurs;
 }
+
+void Graphe::CompConnexe(){
+    std::vector<int> couleurs( (int) m_sommets.size(), 0);
+    std::cout <<"liste des composantes connexes : " << std::endl;
+        for (auto s : m_sommets)
+            if (couleurs [s->getNumero()] != 1){
+                std::cout << " {";
+                std::vector<int> arborescence_2 = BFS(s->getNumero());
+                for (size_t i = 0; i<arborescence_2.size();i++){
+                    if (i != s->getNumero()){
+                        if(arborescence_2[i] != -1){
+                            std::cout << i << " ";
+                            couleurs[i]=1;
+                        }
+                    }
+
+                }
+                couleurs[s->getNumero()]=1;
+                std::cout <<s->getNumero();
+                std::cout<< "} ";
+            }
+}

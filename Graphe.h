@@ -18,6 +18,7 @@ public:
     void afficher() const;
     std::vector<int> BFS(int numero_S0) const;
     std::vector<int> DFS(int numero_S0) const;
+    void CompConnexe() ;
 
 };
 

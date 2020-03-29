@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.cpp
+Graphe.h
+C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.h
+fstream
+-
+queue
+-
+stack
+-
+
 C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.h
 iostream
 -
@@ -17,10 +27,4 @@ iostream
 -
 vector
 -
-
-C:/Users/sam-d/CLionProjects/TP-TD2/main.cpp
-iostream
--
-Graphe.h
-C:/Users/sam-d/CLionProjects/TP-TD2/Graphe.h
 

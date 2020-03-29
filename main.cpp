@@ -39,5 +39,6 @@ int main() {
     std::cout << "Parcours en largeur depuis " << s0 << "(BFS) : " << std::endl;
     afficherParcours(s0, arborescence_2);
 
+    g.CompConnexe();
     return 0;
 }
