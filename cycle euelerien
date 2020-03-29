@@ -1,0 +1,14 @@
+première ebauche de reflexion sur le cycle
+
+on sait que l'on a besoin de connaitre le nombre de sommets dans le graphe
+ensuite si le graphe possede 0 ou 2 sommets de degres impair alors le graphe est eulerien
+
+si le graphe a 2 sommets impair ce sont les extremités de la chaine eulerienne
+
+si tous les sommets sont pairs, alors le graphe est eulerien
+
+ici pour nous, il faut parcourir tous les sommets comme pour les afficher et a l'aide de la liste d'adjacence, on peut savoir le degres d'un sommet
+
+ensuite si nbSommetPair est egal a 0 ou 2 on affichera que le graphe possede un cycle eulerien
+
+par extention; s'il possede un cycle euleiren, le graphe est eulerien

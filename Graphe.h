@@ -9,15 +9,15 @@
 class Graphe {
 
 private:
-    bool m_estOriente;
+    bool m_estOriente{};
     std::vector< Sommet*> m_sommets;
 
 public:
-    Graphe(std:: string cheminFichierGraphe);
+    explicit Graphe(const std:: string& cheminFichierGraphe);
     ~Graphe();
     void afficher() const;
     std::vector<int> BFS(int numero_S0) const;
-
+    std::vector<int> DFS(int numero_S0) const;
 
 };
 
